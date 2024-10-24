@@ -107,3 +107,9 @@ Relación entre **Pedido** y **Producto**. Almacena los productos y las cantidad
    Restricción en la tabla **Stock**: la columna `Cantidad` debe ser mayor o igual a 0.  
    ```sql
    CHECK (Cantidad >= 0)
+
+3. **El pedido no puede superar el stock disponible**:
+   Antes de confirmar un pedido, se debe validar que la cantidad solicitada de un producto en la tabla Detalle_Pedido no exceda la         cantidad disponible en la tabla Stock. Esto puede implementarse mediante un trigger o lógica de la aplicación.
+    ```sql
+    CHECK (Cantidad <= (SELECT Cantidad FROM Stock WHERE Stock.ID_Producto = Detalle_Pedido.ID_Producto AND Stock.ID_Zona = Detalle_Pedido.ID_Zona))
+
