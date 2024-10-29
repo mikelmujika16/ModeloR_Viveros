@@ -83,6 +83,8 @@ Relación entre **Zona** y **Empleado**. Se utiliza para registrar el historial 
   - `ID_Vivero`, `ID_Zona` referencia a la tabla **Zona**(`ID_Vivero`, `ID_Zona`)
   - `ID_Empleado` referencia a la tabla **Empleado**(`ID_Empleado`)
 
+**Nota**: La columna `Productividad` representa un valor calculado de cuán productivo ha sido un empleado en una tarea durante una franja de tiempo específica. Debido a restricciones en el sistema y no poder usar triggers, no se puede calcular automáticamente y debe ingresarse de manera manual.
+
 ---
 
 ### 9. Detalle_Pedido
@@ -110,5 +112,19 @@ Relación entre **Pedido** y **Producto**. Almacena los productos y las cantidad
 
 3. **El pedido no puede superar el stock disponible**:
    Antes de confirmar un pedido, se debe validar que la cantidad solicitada de un producto en la tabla Detalle_Pedido no exceda la         cantidad disponible en la tabla Stock. Esto puede implementarse mediante un trigger o lógica de la aplicación.
-   
+
+
+## Imagen de salida de los SELECT de cada tabla
+
+ Las imágenes se encuentran en la carpeta `SelectTablas`.
+
+- **Cliente**: [Cliente.png](SelectTablas/Cliente.png)
+- **Detalle Pedido**: [Detalle_Pedido.png](SelectTablas/Detalle_Pedido.png)
+- **Empleado**: [Empleado.png](SelectTablas/Empleado.png)
+- **Historial Puesto**: [Historial_Puesto.png](SelectTablas/Historial_Puesto.png)
+- **Pedido**: [Pedido.png](SelectTablas/Pedido.png)
+- **Producto**: [Producto.png](SelectTablas/Producto.png)
+- **Stock**: [Stock.png](SelectTablas/Stock.png)
+- **Vivero**: [Vivero.png](SelectTablas/Vivero.png)
+- **Zona**: [Zona.png](SelectTablas/Zona.png)
 
