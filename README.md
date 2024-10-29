@@ -116,15 +116,41 @@ Relación entre **Pedido** y **Producto**. Almacena los productos y las cantidad
 
 ## Imagen de salida de los SELECT de cada tabla
 
- Las imágenes se encuentran en la carpeta `SelectTablas`.
+Las imágenes se encuentran en la carpeta `SelectTablas`.
 
-- **Cliente**: [Cliente.png](SelectTablas/Cliente.png)
-- **Detalle Pedido**: [Detalle_Pedido.png](SelectTablas/Detalle_Pedido.png)
-- **Empleado**: [Empleado.png](SelectTablas/Empleado.png)
-- **Historial Puesto**: [Historial_Puesto.png](SelectTablas/Historial_Puesto.png)
-- **Pedido**: [Pedido.png](SelectTablas/Pedido.png)
-- **Producto**: [Producto.png](SelectTablas/Producto.png)
-- **Stock**: [Stock.png](SelectTablas/Stock.png)
-- **Vivero**: [Vivero.png](SelectTablas/Vivero.png)
-- **Zona**: [Zona.png](SelectTablas/Zona.png)
+- **Cliente**: ![Cliente](SelectTablas/Cliente.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Detalle Pedido**: ![Detalle Pedido](SelectTablas/Detalle_Pedido.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Empleado**: ![Empleado](SelectTablas/Empleado.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Historial Puesto**: ![Historial Puesto](SelectTablas/Historial_Puesto.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Pedido**: ![Pedido](SelectTablas/Pedido.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Producto**: ![Producto](SelectTablas/Producto.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Stock**: ![Stock](SelectTablas/Stock.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Vivero**: ![Vivero](SelectTablas/Vivero.png)
+
+&nbsp;  <!-- Esto agrega un espacio entre las imágenes -->
+
+- **Zona**: ![Zona](SelectTablas/Zona.png)
+
+
 
